@@ -35,7 +35,7 @@ while display.IsStreaming() and detection_count < 2:
         area = width * height            
         center_x = (left + right) / 2  
         center_y = (top + bottom) / 2    
-
+        
         print(f"\n=== Detection Result {detection_count + 1} ===")
         print(f"ClassID:       {class_id}")
         print(f"Confidence:    {confidence:.2f}")  
